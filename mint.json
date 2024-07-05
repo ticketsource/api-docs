@@ -1,24 +1,25 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "TicketSource",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "https://cdn.ticketsource.co.uk/images/ticketsource-inline.svg",
+    "light": "https://cdn.ticketsource.co.uk/images/ticketsource-inline.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#eb601a",
+    "light": "#eb601a",
+    "dark": "#eb601a",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
     }
   },
+  "openapi": "https://raw.githubusercontent.com/ticketsource/openapi-spec/main/reference/TicketSource-API.json",
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@ticketsource.co.uk"
     }
   ],
   "topbarCtaButton": {
@@ -84,8 +85,6 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/ticketsource"
   }
 }
